@@ -1,0 +1,12 @@
+dependencies {
+    implementation Libs.spring_boot_starter_actuator
+    implementation Libs.jackson_module_kotlin
+    implementation Libs.spring_cloud_starter_config
+    implementation Libs.spring_cloud_starter_gateway
+    implementation Libs.spring_cloud_starter_netflix_eureka_client
+    implementation Libs.spring_cloud_starter_sleuth
+    implementation Libs.kotlin_stdlib_jdk8
+    implementation Libs.kotlin_reflect
+    runtime Libs.spring_boot_devtools
+    testImplementation Libs.spring_boot_starter_test
+}
